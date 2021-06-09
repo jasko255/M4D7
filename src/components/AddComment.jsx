@@ -5,7 +5,7 @@ class AddComment extends Component {
 
 
 
-    
+
     state = {
         comment: {
             comment: '',
@@ -33,7 +33,7 @@ class AddComment extends Component {
                 body: JSON.stringify(this.state.comment),
                 headers: {
                     'Content-type': 'application/json',
-                    Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGI3OWY5NTgxNmI1YjAwMTU5NDA3NDAiLCJpYXQiOjE2MjI2NDY2NzcsImV4cCI6MTYyMzg1NjI3N30.y-rBwB5WAQOWBvWrLlAgTQUrbGulxd2M6cWH3VLyGLw'
+                    Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGFlNWM1ZGNlYWY0ODAwMTVjOTE5NDEiLCJpYXQiOjE2MjMxNjQwOTYsImV4cCI6MTYyNDM3MzY5Nn0.h7EkDkZcENvOvu6gO5pnvoPtLxjMxrhiVoPe8dMYCI4'
                 }
             })
             if (response.ok) {
