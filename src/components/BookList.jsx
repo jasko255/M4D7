@@ -34,9 +34,7 @@ const BookList = ({books}) => {
                                         <SingleBook
                                             book={b}
                                             selectedBook={selectedBook}
-                                            changeSelectedBook={asin => setSelectedBook({
-                                                selectedBook: asin
-                                            })} />
+                                            changeSelectedBook={asin => setSelectedBook({ asin })} />
                                     </Col>
                                 ))
                             }
